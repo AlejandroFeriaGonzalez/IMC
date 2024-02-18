@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Calculadora de IMC</title>
     <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
-</head>
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <title>Calculadora de IMC</title>
+        <link rel="icon" href="favicon.png" type="image/x-icon">
+    </head>
+
 <body>
     <h1>Calculadora de IMC</h1>
     <form id="imcForm">
-        <label for="weight">Peso (en kilogramos):</label><br>
-        <input type="number" id="weight" name="weight" required><br>
-        <label for="height">Altura (en metros):</label><br>
-        <input type="number" id="height" name="height" step="0.01" required><br>
+        <label for="peso">Peso (en kilogramos):</label><br>
+        <input type="number" id="peso" name="peso" required><br>
+        <label for="altura">Altura (en metros):</label><br>
+        <input type="number" id="altura" name="altura" step="0.01" required><br>
         <input type="submit" value="Calcular IMC">
     </form>
     <p id="result"></p>
@@ -21,4 +29,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
